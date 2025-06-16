@@ -30,9 +30,12 @@ python-dateutil==2.8.2
 python-json-logger==2.0.7
 python-slugify==8.0.4
 PythonQwt==0.14.5
-scikit-learn==1.7.0
+scikit-learn==1.6.1
+cffi==1.17.1
 tensorboard==2.19.0
 tensorboard-data-server==0.7.2
+cffi==1.17.1
 tensorflow==2.19.0
 tensorflow-io-gcs-filesystem==0.31.0
+cffi==1.17.1
 
