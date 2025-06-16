@@ -33,8 +33,10 @@ PythonQwt==0.14.5
 scikit-learn==1.6.1
 cffi==1.17.1
 tensorboard==2.19.0
+cffi==1.17.1
 tensorboard-data-server==0.7.2
 cffi==1.17.1
 tensorflow-io-gcs-filesystem==0.31.0
+cffi==1.17.1
 cffi==1.17.1
 
