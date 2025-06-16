@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Check Your Shit
+        </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles_2.css') }}">
+    </head>
+    <body>
+        <div class="nav">
+            <h1> hello motherfucker</h1>
+        </div>
+        <div class="result">
+            <h3>you have {{lable}}% heart tumer</h3>
+            <h3> {{tab}}</h3>
+            <h3>{{tab2}}</h3>
+        </div>
+ 
+        <img src="{{ url_for('static', filename='angry_heart.png') }}" alt="Angry Heart" />
+
+    </body>
+</html>

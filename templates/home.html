@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Check Your Shit
+        </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">    
+    </head>
+    <body>
+        <div class="navbar">
+            <h1>🩺How Screwed Is Your Heart? - A Brutally Honest Risk Predictor</h1>
+            <h2>Dead Inside? Let's Check the Heart First</h2>
+        </div>
+        <div class = "container">
+            <form action ="http://127.0.0.1:5000/predict" method="post">
+                name<input type="text" name="name" required><br><br><br>
+
+                Gender<select name="sex" required>
+                        <option value= "1"> man</option>
+                        <option value = "0" > woman</option>
+                    </select><br><br><br>
+
+                AGEIR<input type="text" name="AGEIR" required><br><br><br>
+                TC (blood test)<input type="text" name="TC" required><br><br><br>
+                HDL ( High-Density Lipoprotein)<input type="text" name="HDL" required><br><br><br>
+                Smoke<select name = "smoke" required>
+                        <option value="1">smoke</option>
+                        <option value="0">not smoke</option>
+                    </select><br><br><br>
+                BPMED (blood pressure medication)<select name = "BPMED" required>
+                    <option value="1">Taking</option>
+                    <option value="0">not Taking</option>
+                </select><br><br><br>
+                Diabetes<select name = "DIAB" required>
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </select><br><br><br>
+                <input class="button-submit" type="submit" name="submit" value = "submit">
+                <input class="button-reset" type="reset" name="reset" value="reset">
+            </form>
+        </div>
+    </body>
+</html>
