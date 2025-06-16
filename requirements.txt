@@ -15,7 +15,6 @@ blinker==1.9.0
 branca==0.8.1
 certifi==2023.11.17
 charset-normalizer==3.3.2
-click==8.2.1
 colorama==0.4.6
 comm==0.2.0
 cycler==0.12.1
