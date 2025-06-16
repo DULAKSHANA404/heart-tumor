@@ -1,7 +1,7 @@
 
-# 💔 Check Your Sh*t - Heart Risk Predictor
+# 💔Heart Risk Predictor
 
-This is a brutally honest, dark-humored Flask web app that estimates your heart risk based on basic health info. Built with Python, Flask, and machine learning.
+Built with Python, Flask, and machine learning.
 
 
 ## 🔧 Features
@@ -9,7 +9,6 @@ This is a brutally honest, dark-humored Flask web app that estimates your heart 
 - Input: Age, cholesterol, HDL, blood pressure med, diabetes, smoking status, etc.
 - Output: Heart risk percentage with savage commentary
 - Displays a cartoon heart image based on prediction
-- Easy to run and host
 
 ---
 
@@ -44,43 +43,6 @@ flask run
 
 Open browser and go to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
----
-
-## 🚀 Deploy to Render (Free Hosting)
-
-1. Push your project to GitHub
-2. Go to [https://render.com](https://render.com)
-3. Click **New → Web Service**
-4. Connect your GitHub repo
-5. Set the following:
-
-   - **Build Command:**  
-     ```bash
-     pip install -r requirements.txt
-     ```
-
-   - **Start Command:**  
-     ```bash
-     gunicorn main:app
-     ```
-
-6. Add the following files to your root directory:
-
-### 📄 `Procfile`
-```
-web: gunicorn main:app
-```
-
-### 📄 `requirements.txt` (example)
-```
-Flask
-scikit-learn
-keras
-tensorflow
-numpy
-```
-
----
 
 ## 📁 Project Structure
 
@@ -100,11 +62,4 @@ numpy
 ├── Procfile
 └── README.md
 ```
-
-
-
-## 👨‍💻 Author
-
-Made with 💀 and 💻 by a sarcastic developer.  
-Licensed under MIT.
 
