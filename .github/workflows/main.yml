@@ -36,6 +36,6 @@ jobs:
       - name: Run Flask app (optional for testing purposes)
         run: |
           echo "Starting Flask app (for CI test only)..."
-          nohup python app.py &
+          nohup python main.py &
           sleep 10
           echo "Flask app started"
