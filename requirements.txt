@@ -25,7 +25,7 @@ joblib==1.5.1
 kaggle==1.7.4.5
 keras==3.10.0
 keras-tuner==1.4.7
-numpy==1.26.2
+numpy==2.0.2
 python-dateutil==2.8.2
 python-json-logger==2.0.7
 python-slugify==8.0.4
