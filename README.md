@@ -50,14 +50,14 @@ Open browser and go to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 .
 ├── main.py
 ├── templates/
-│   └── index.html
-│   └── result.html
+│   └── home.html
+│   └── predict.html
 ├── static/
-│   └── styles_2.css
+│   └── styles_2.css,styles.css
 │   └── angry_heart.png
 ├── model/
 │   └── model.keras
-│   └── scaler.pkl
+│   └── data.pkl,target.plk
 ├── requirements.txt
 ├── Procfile
 └── README.md
